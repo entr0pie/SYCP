@@ -1,0 +1,24 @@
+#!/bin/python3
+### SEE https://requests.readthedocs.io/en/latest/ ###
+
+import requests
+
+HEADERS = {
+"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0",
+"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+"Accept-Language": "en-US,en;q=0.5",
+"Accept-Encoding": "gzip, deflate",
+"Content-Type": "application/x-www-form-urlencoded",
+"Content-Length": "36",
+"Origin": "http://www.bancocn.com",
+"Connection": "keep-alive",
+"Referer": "http://www.bancocn.com/admin/login.php",
+"Cookie": "cf_clearance=M70ikZi28ix6zDPuj4nFh_fMnXdLUv45bbRxA8A6VzI-1663007047-0-150; PHPSESSID=aec64ht0m000j3ic549h3s7756",
+"Upgrade-Insecure-Requests":"1"
+}
+
+POST_DATA = {"user":"admin", "password":"senhafoda"}
+
+RESPONSE = requests.post("http://www.bancocn.com/admin/index.php", headers=HEADERS, data=POST_DATA)
+
+print(RESPONSE.text)

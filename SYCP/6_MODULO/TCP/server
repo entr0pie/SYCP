@@ -1,0 +1,34 @@
+#!/bin/python3
+
+import sys
+import socket
+
+### ARGS ###
+try:
+    PORT = int(sys.argv[1])
+
+except IndexError:
+    print("USAGE: server [PORT]")
+    sys.exit()
+
+SERVER = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+SERVER.bind(("0.0.0.0", PORT))
+
+SERVER.listen(5)
+print(f"[*] WAITING AN CONNECTION ({PORT})")
+
+MAILMAN, ADRESS = SERVER.accept()
+print(f"[!] ESTABILISHED CONNECTION WITH {ADRESS[0]}")
+
+while True:
+    server_msg = input("[?] >>> ").strip()
+    
+    if server_msg == "EXIT":
+        SERVER.close()
+        break
+    
+    MAILMAN.send(server_msg.encode())
+    client_msg = MAILMAN.recv(2048).decode()
+    print(f"[{ADRESS[0]}] >>> {client_msg}")
+

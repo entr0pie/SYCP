@@ -1,0 +1,32 @@
+#!/bin/python3 
+import sys
+
+from CCrawler import Chicken
+
+try:
+    START = sys.argv[1]
+
+except IndexError:
+    print("USAGE: chicken [ADRESS]")
+    sys.exit()
+
+TO_CRAWL = [START]
+CRAWLED = set()
+
+while True:
+    if TO_CRAWL == []:
+            break
+    
+    webpage = Chicken.get_page(TO_CRAWL[0])
+    links = Chicken.find_links(webpage.text)
+    oldlink = TO_CRAWL[0]
+    TO_CRAWL.pop(0)
+    
+    for l in links:
+        if l not in TO_CRAWL and l not in CRAWLED:
+            print(f"[!] FOUND {l}")
+            if l[0:4] == "http":
+                TO_CRAWL.append(l)
+                # CRAWLED.add(l)
+
+    CRAWLED.add(oldlink)
