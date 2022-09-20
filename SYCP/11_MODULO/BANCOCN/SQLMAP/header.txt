@@ -1,0 +1,5 @@
+GET /cat.php?id=3 HTTP/1.1
+Host: www.bancocn.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Cookie: cf_clearance=Lm2SvBKE4oA_5E.D4Y54GMBgE9b5ihI.6VJsK508TM8-1663173673-0-150; PHPSESSID=9rbt85s7ktur1j26f3u9lbs5h5

@@ -1,0 +1,6 @@
+POST /admin/index.php HTTP/1.1
+Host: www.bancocn.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Cookie: cf_clearance=TK1zOYzpcq7cVX2U1868ie_fmaELygJw.6GOkvXHLpY-1663178258-0-150; PHPSESSID=9rbt85s7ktur1j26f3u9lbs5h5; cf_chl_2=2a9bec8563cd55c; cf_chl_prog=x14
+user=foo&password=try

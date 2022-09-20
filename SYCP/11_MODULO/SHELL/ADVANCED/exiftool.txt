@@ -1,0 +1,1 @@
+exiftool -comment=your-comment your_image.jpg

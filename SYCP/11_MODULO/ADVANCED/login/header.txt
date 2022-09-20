@@ -1,0 +1,9 @@
+POST /admin/index.php HTTP/1.1
+Host: advanced.bancocn.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Cookie: cf_clearance=3jg2kNWIkA74vG1xKldB24Uoo2gwXAdzIe17LV4ThGA-1663238994-0-250; PHPSESSID=e3dtvl6rqd726815cvfbrajsj6
+
+user=admin&password=admin
