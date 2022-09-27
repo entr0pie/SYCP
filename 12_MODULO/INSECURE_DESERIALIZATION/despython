@@ -1,0 +1,15 @@
+#/bin/python3 
+
+import sys
+import base64
+import pickle
+
+try:
+    data = sys.argv[1]
+
+except IndexError:
+    print("USAGE: despython [BASE64_OBJ]")
+    sys.exit(0)
+
+deserialization = pickle.loads(base64.b64decode(data))
+print(deserialization)

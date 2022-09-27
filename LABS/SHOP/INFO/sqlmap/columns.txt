@@ -1,0 +1,20 @@
++--------------+----------+
+| Column       | Type     |
++--------------+----------+
+| 1            | TEXT     |
+| 255          | TEXT     |
+| createdAt    | DATETIME |
+| deletedAt    | DATETIME |
+| deluxeToken  | VARCHAR  |
+| email        | VARCHAR  |
+| id           | INTEGER  |
+| isActive     | TINYINT  |
+| lastLoginIp  | VARCHAR  |
+| password     | VARCHAR  |
+| profileImage | VARCHAR  |
+| role         | VARCHAR  |
+| totpSecret   | VARCHAR  |
+| updatedAt    | DATETIME |
+| username     | VARCHAR  |
++--------------+----------+
+

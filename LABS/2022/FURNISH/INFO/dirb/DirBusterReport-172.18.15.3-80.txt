@@ -1,0 +1,90 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Mon Sep 26 09:28:49 BRT 2022
+--------------------------------
+
+http://172.18.15.3:80
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 403 response:
+
+/.htpasswd/
+/.hta/
+/.htaccess/
+/cgi-bin/
+
+Dirs found with a 200 response:
+
+/
+/assets/
+/assets/images/
+/assets/css/
+/assets/fonts/
+/assets/js/
+/assets/images/slider/
+/assets/images/discount-product/
+/assets/images/product/
+/assets/images/services/
+/assets/images/showcase/
+/assets/images/blog/
+/assets/js/vendor/
+/assets/images/testimonial/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 403 responce:
+
+/.htpasswd.php
+/.htaccess.php
+/.hta.php
+/.hta
+/.htaccess
+/.htpasswd
+
+Files found with a 301 responce:
+
+/assets
+
+Files found with a 200 responce:
+
+/assets/.DS_Store
+/index.html
+/assets/js/vendor/modernizr-3.6.0.min.js
+/assets/js/vendor/jquery-1.12.4.min.js
+/assets/images/.DS_Store
+/assets/css/LineIcons.css
+/assets/fonts/LineIcons.eot
+/assets/images/services/.DS_Store
+/assets/images/logo.psd
+/assets/images/product/.DS_Store
+/assets/images/discount-product/.DS_Store
+/assets/js/.DS_Store
+/assets/images/slider/.DS_Store
+/assets/js/bootstrap.min.js
+/assets/js/slick.min.js
+/assets/images/blog/.DS_Store
+/assets/images/showcase/.DS_Store
+/assets/css/animate.css
+/assets/fonts/LineIcons.ttf
+/assets/css/default.css
+/assets/fonts/LineIcons.svg
+/assets/js/jquery.magnific-popup.min.js
+/assets/js/jquery.nav.js
+/assets/css/bootstrap.min.css
+/assets/css/jquery.nice-number.min.css
+/robots.txt
+/assets/fonts/LineIcons.woff
+/assets/js/jquery.nice-number.min.js
+/assets/css/magnific-popup.css
+/assets/css/responsive.css
+/assets/js/main.js
+/assets/css/slick.css
+/assets/images/testimonial/.DS_Store
+/assets/css/style.css
+/assets/css/style.css.map
+
+
+--------------------------------

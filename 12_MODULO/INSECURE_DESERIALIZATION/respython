@@ -1,0 +1,18 @@
+#!/bin/python3
+
+import sys
+import base64 
+import pickle
+
+try:
+    path = sys.argv[1]
+
+except IndexError:
+    print("USAGE: respython [OBJECT]")
+    sys.exit(0)
+
+file = open(path, 'r')
+file = file.read()
+
+
+pickle.dump(file)

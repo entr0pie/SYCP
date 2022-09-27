@@ -1,0 +1,15 @@
+index.html
+#home
+#product
+#service
+#showcase
+#team
+#blog
+#contact
+#
+#v-pills-furniture
+#v-pills-decorative
+#v-pills-lighting
+#v-pills-outdoor
+#v-pills-storage
+https://www.youtube.com/watch?v=l8ccw7BMrMA

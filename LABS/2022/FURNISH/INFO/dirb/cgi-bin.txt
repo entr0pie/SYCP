@@ -1,0 +1,41 @@
+DirBuster 1.0-RC1 - Report
+http://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Report produced on Mon Sep 26 12:06:10 BRT 2022
+--------------------------------
+
+http://172.18.15.3:80
+--------------------------------
+Directories found during testing:
+
+Dirs found with a 403 response:
+
+/cgi-bin/
+/cgi-bin/.hta/
+/cgi-bin/.htaccess/
+/cgi-bin/.htpasswd/
+
+Dirs found with a 500 response:
+
+/cgi-bin/printenv/
+/cgi-bin/test-cgi/
+
+
+--------------------------------
+Files found during testing:
+
+Files found with a 403 responce:
+
+/cgi-bin/.htaccess.php
+/cgi-bin/.hta.php
+/cgi-bin/.htpasswd.php
+/cgi-bin/.hta
+/cgi-bin/.htaccess
+/cgi-bin/.htpasswd
+
+Files found with a 500 responce:
+
+/cgi-bin/printenv
+/cgi-bin/test-cgi
+
+
+--------------------------------
