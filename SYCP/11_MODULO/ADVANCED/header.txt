@@ -1,7 +1,0 @@
-GET / HTTP/1.1
-Host: advanced.bancocn.com
-User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
-Accept-Language: en-US,en;q=0.5
-Cookie: cf_clearance=_3BRIGIuFyE.wp772owuSyP.Ss2.g2Awmk.6IYdo1fc-1663255450-0-150
-X-Forwarded-For: 200.200.200.200

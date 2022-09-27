@@ -1,7 +1,0 @@
-### INTRODUÇÃO ###
-https://owasp.org/
-https://owasp.org/www-project-top-ten/
-https://owasp.org/www-pdf-archive/OWASP_Top_10-2017-pt_pt.pdf
-https://owasp.org/Top10/
-https://owasp.org/www-project-risk-assessment-framework/
-

