@@ -1,0 +1,24 @@
+Host's addresses:                                                                                                               
+__________________                                                                                                              
+                                                                                                                                
+bancocn.com.                             223      IN    A        104.21.52.8                                                    
+bancocn.com.                             223      IN    A        172.67.192.199
+
+                                                                                                                                
+Name Servers:                                                                                                                   
+______________                                                                                                                  
+                                                                                                                                
+megan.ns.cloudflare.com.                 13898    IN    A        172.64.32.197                                                  
+megan.ns.cloudflare.com.                 13898    IN    A        108.162.192.197
+megan.ns.cloudflare.com.                 13898    IN    A        173.245.58.197
+noel.ns.cloudflare.com.                  13704    IN    A        172.64.33.216
+noel.ns.cloudflare.com.                  13704    IN    A        108.162.193.216
+noel.ns.cloudflare.com.                  13704    IN    A        173.245.59.216
+
+                                                                                                                                
+Mail (MX) Servers:                                                                                                              
+___________________                                                                                                             
+                                                                                                                                
+googlemail.com.                          223      IN    A        142.251.132.5                                                  
+
+

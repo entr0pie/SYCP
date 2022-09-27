@@ -1,0 +1,13 @@
+"POST /admin/index.php HTTP/1.1
+Host: www.bancocn.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+Origin: http://www.bancocn.com
+Connection: keep-alive
+Referer: http://www.bancocn.com/admin/login.php
+Cookie: cf_clearance=M70ikZi28ix6zDPuj4nFh_fMnXdLUv45bbRxA8A6VzI-1663007047-0-150; PHPSESSID=34l9k2nc2mv281ei2qv2uoc935; cf_chl_seq_90388204892f1ae=2ni1T9HzCPEwUXt; cf_use_ob=0;
+Upgrade-Insecure-Requests: 1"

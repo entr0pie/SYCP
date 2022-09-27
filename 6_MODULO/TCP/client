@@ -1,0 +1,29 @@
+#!/bin/python3
+
+import socket
+import sys
+
+### ARGS ###
+try:
+    HOST = sys.argv[1]
+    PORT = int(sys.argv[2])
+
+except IndexError:
+    print("USAGE: client [HOST] [PORT]")
+    sys.exit()
+
+CLIENT = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+print(f"[*] TRYING TO CONNECT ON {HOST} VIA {PORT}")
+CLIENT.connect((HOST, PORT))
+
+print(f"[!] CONNECTED WITH {HOST} ON {PORT}")
+
+while True:
+    server_msg = CLIENT.recv(2048).decode().strip()
+    print(f"[SERVER] >>> {server_msg}")
+    client_msg = input("[?] >>> ").strip()
+    if client_msg == "EXIT":
+        break
+    CLIENT.send(client_msg.encode())
+

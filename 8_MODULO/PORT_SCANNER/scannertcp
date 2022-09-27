@@ -1,0 +1,28 @@
+#!/bin/python3
+
+import socket
+import sys
+
+### ARG HANDLER ###
+
+try:
+    hostname = sys.argv[1]
+    ports = sys.argv[2].split(",")
+    timeout = float(sys.argv[3])
+
+except Exception as error:
+    print("USAGE: scannertcp <HOST> <PORTS> <TIMEOUT>")
+    sys.exit()
+
+
+### SCANNING ###
+
+print(f"SCANNING {hostname} (...)")
+
+for port in ports:
+    CLIENT = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    CLIENT.settimeout(timeout)
+    exit_code = CLIENT.connect_ex((hostname, int(port)))
+    if exit_code == 0:
+        print(f"[+] {port} IS OPEN")
+

@@ -1,0 +1,10 @@
+### BANNER CAPTURE ###
+nc [adress] [port]
+
+### PORT SCANNING ###
+nc -zv [adress] 1-3306
+nmap [adress] [ports] // NOISY
+nmap -sS [adress] [ports] // RECOMENDED
+
+
+

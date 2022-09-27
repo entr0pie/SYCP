@@ -1,0 +1,27 @@
+#!/bin/python3
+
+import sys
+import dns.resolver
+
+try: 
+    link = sys.argv[1]
+    wordlist_txt = sys.argv[2]
+except: 
+    print("dnsbrute <DOMAIN> <WORDLIST>")
+    sys.exit()
+
+resolver = dns.resolver.Resolver()
+
+brute_file = open(wordlist_txt, 'r')
+subdomains = brute_file.readlines()
+
+for sub in subdomains:
+    try:
+        sub_alvo = f"{sub.strip()}.{link}"
+        results = resolver.resolve(sub_alvo, "A")
+        for ip in results:
+            print(f"({sub_alvo}) => {ip}")
+    except:
+        pass
+
+
